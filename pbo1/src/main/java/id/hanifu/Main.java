@@ -42,6 +42,54 @@ public class Main {
         String lastName = "Putra S";
 
         System.out.printf("Nama depan: %s\nNama Belakang: %s\n", firstName, lastName);
+
+        // usecase
+        Main.salariesUsecase();
+
+        // Logics
+        boolean t = true;
+        boolean f = false;
+
+        boolean logic;
+
+        logic = t && f;
+        System.out.println("Logic result: " + logic);
+
+        logic = t || f;
+        System.out.println("Logic result: " + logic);
+    }
+
+    private static void salariesUsecase() {
+        long salary = 3000000;
+        long tunjangan = 2500;
+        long total;
+
+        total = salary + tunjangan;
+        System.out.println("Total: " + total);
+
+        total = salary - tunjangan;
+        System.out.println("Total: " + total);
+
+        total = salary * tunjangan;
+        System.out.println("Total: " + total);
+
+        total = salary / tunjangan;
+        System.out.println("Total: " + total);
+
+        total = salary % tunjangan;
+        System.out.println("Total: " + total);
+
+        System.out.println("Total: " + total);
+
+        salary++;
+        System.out.println("Salary: " + salary);
+
+        boolean relation_result;
+        relation_result = salary == tunjangan;
+        System.out.println("Hasil relasi: " + relation_result);
+
+        relation_result = salary != tunjangan;
+        System.out.println("Hasil relasi: " + relation_result);
     }
 
     protected static void print(String id, long val) {
