@@ -36,6 +36,12 @@ public class Main {
         // Numbers (reassign)
         thisByte = 50;
         Main.print("data byte", thisByte);
+
+        // Strings
+        String firstName = "Hanif Dwy";
+        String lastName = "Putra S";
+
+        System.out.printf("Nama depan: %s\nNama Belakang: %s\n", firstName, lastName);
     }
 
     protected static void print(String id, long val) {
