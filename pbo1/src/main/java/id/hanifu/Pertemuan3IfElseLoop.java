@@ -56,5 +56,26 @@ public class Pertemuan3IfElseLoop {
         {
             System.out.println("Nilai i = " + i);
         }
+
+        // Looping descending
+        for (byte j = 10; j >= 1; j--) {
+            System.out.println("Nilai j = " + j);
+        }
+
+
+        // While
+        byte m = 1;
+        while(m <= 10)
+        {
+            System.out.println("Nilai m = " + m);
+            m++;
+        }
+
+        // Do while
+        byte n = 1;
+        do {
+            System.out.println("Nilai n = " + n);
+            n++;
+        } while(n <= 10);
     }
 }
