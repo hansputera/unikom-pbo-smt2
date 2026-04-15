@@ -2,7 +2,7 @@ package id.hanifu;
 
 // Pertemuan 3 - If else statement
 
-public class IfElseStatement {
+public class Pertemuan3IfElseLoop {
     public static void main(String[] args) {
         byte nilai = 65;
 
@@ -48,6 +48,13 @@ public class IfElseStatement {
                 break;
             default:
                 System.out.println("Tidak tahu Nilai");
+        }
+
+
+        // Looping
+        for (byte i = 1; i <= 10; i++)
+        {
+            System.out.println("Nilai i = " + i);
         }
     }
 }
