@@ -33,5 +33,21 @@ public class IfElseStatement {
         } else {
             System.out.println("Index = E");
         }
+
+        // Switch case
+        nilai = 3;
+        switch (nilai) {
+            case 1:
+                System.out.println("Nilai = 1");
+                break;
+            case 2:
+                System.out.println("Nilai = 2");
+                break;
+            case 3:
+                System.out.println("Nilai = 3");
+                break;
+            default:
+                System.out.println("Tidak tahu Nilai");
+        }
     }
 }
