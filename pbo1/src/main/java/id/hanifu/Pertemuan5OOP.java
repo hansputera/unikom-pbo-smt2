@@ -23,8 +23,26 @@ public class Pertemuan5OOP {
         mahasiswa2.golonganDarah = 'O';
         mahasiswa2.jenisKelamin = 'P';
 
+
+        // Using .isiDataProfil method
+        Mahasiswa mahasiswa3 = new Mahasiswa();
+        mahasiswa3.isiDataProfil(
+                "Muhammad Hazmi Alfarizqi",
+                "10125906",
+                "IF10K",
+                "Teknik Informatika",
+                'L',
+                'B',
+                4
+        );
+
         printMahasiswaDetail(mahasiswa1);
         printMahasiswaDetail(mahasiswa2);
+        printMahasiswaDetail(mahasiswa3);
+
+        // Using returned value from function
+        float ipkMhs3 = mahasiswa3.getIpk();
+        System.out.println("IPK Mahasiswa 3: " + ipkMhs3);
     }
 
     public static void printMahasiswaDetail(Mahasiswa mahasiswa) {
