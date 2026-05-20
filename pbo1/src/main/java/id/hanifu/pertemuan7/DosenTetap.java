@@ -5,6 +5,11 @@ public class DosenTetap extends Dosen
     public String nip;
     public long gaji;
 
+    public DosenTetap(String nama)
+    {
+        super(nama);
+    }
+
     public void tampilkanProfil()
     {
         this.tampilkanData(); // just shortcut/reuse print nama, and prodi

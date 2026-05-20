@@ -5,6 +5,11 @@ public class DosenLayanan extends Dosen {
     public String homebase;
     public String type = "Dosen Layanan";
 
+    public DosenLayanan(String nama)
+    {
+        super(nama);
+    }
+
     public void tampilkanProfil()
     {
         this.tampilkanData();

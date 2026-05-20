@@ -5,6 +5,11 @@ public class Dosen {
     public String prodi;
     public String type = "dosen";
 
+    public Dosen(String nama)
+    {
+        this.nama = nama;
+    }
+
     public void tampilkanData()
     {
         System.out.println("Nama: " + this.nama);
