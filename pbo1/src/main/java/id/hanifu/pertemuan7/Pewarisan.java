@@ -21,7 +21,9 @@ public class Pewarisan {
         DosenLayanan dosenLayanan = new DosenLayanan();
         dosenLayanan.nama = "Angga";
         dosenLayanan.prodi = "Ilmu Hukum";
+        dosenLayanan.honorSks = 200000000;
+        dosenLayanan.homebase = "Institut Teknologi Bandung";
 
-        dosenLayanan.tampilkanData();
+        dosenLayanan.tampilkanProfil();
     }
 }
