@@ -13,7 +13,10 @@ public class Pewarisan {
         dosenTetap.nama = "Dadi Rosadi";
         dosenTetap.prodi = "Teknik Informatika";
 
-        dosenTetap.tampilkanData();
+        dosenTetap.nip = "111-222-333";
+        dosenTetap.gaji = 7000000;
+
+        dosenTetap.tampilkanProfil();
 
         DosenLayanan dosenLayanan = new DosenLayanan();
         dosenLayanan.nama = "Angga";
