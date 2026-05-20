@@ -5,9 +5,9 @@ public class DosenTetap extends Dosen
     public String nip;
     public long gaji;
 
-    public DosenTetap(String nama)
+    public DosenTetap(String nama, String prodi)
     {
-        super(nama);
+        super(nama, prodi);
     }
 
     public void tampilkanProfil()

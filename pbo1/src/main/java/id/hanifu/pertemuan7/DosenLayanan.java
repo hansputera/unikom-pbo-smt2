@@ -5,9 +5,9 @@ public class DosenLayanan extends Dosen {
     public String homebase;
     public String type = "Dosen Layanan";
 
-    public DosenLayanan(String nama)
+    public DosenLayanan(String nama, String prodi)
     {
-        super(nama);
+        super(nama, prodi);
     }
 
     public void tampilkanProfil()

@@ -5,9 +5,10 @@ public class Dosen {
     public String prodi;
     public String type = "dosen";
 
-    public Dosen(String nama)
+    public Dosen(String nama, String prodi)
     {
         this.nama = nama;
+        this.prodi = prodi;
     }
 
     public void tampilkanData()
